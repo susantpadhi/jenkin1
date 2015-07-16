@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class HelloJenkinsController {
-	String message = "Welcome to Spring MVC!";
+	String message = "Its demo program has been deployed using Jenkins with Maven build on Tomcat7. Thanks!";
  
 	@RequestMapping("/hello")
 	public ModelAndView showMessage(
